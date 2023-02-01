@@ -1,0 +1,17 @@
+.app {
+  max-width: 25rem;
+  width: 25rem;
+  padding: 2rem 1rem;
+  border: 0.5px solid #80808045;
+  border-radius: 16px;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #4895ff;
+}

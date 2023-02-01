@@ -1,0 +1,59 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  border: 0.5px solid lightgray;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  font-size: 1.125rem;
+}
+
+.form input:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+.form input::placeholder {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.username-inputs {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.username-inputs input {
+  width: 100%;
+}
+
+.signup-btn {
+  width: 100%;
+  border: none;
+  padding: 0.75rem;
+  font-size: inherit;
+  font-family: inherit;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #4895ff;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 1rem;
+  font-weight: bold;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
